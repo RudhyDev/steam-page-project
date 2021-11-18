@@ -20,11 +20,11 @@
     color: azure;
     display: flex;
     justify-content: space-evenly;
-    background-color: #231F20;
+    
 }
 
 .menus li{
     margin: 0rem 1rem;
-    background-color:#231F20;
+    
 }
 
