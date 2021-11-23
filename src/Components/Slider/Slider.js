@@ -10,8 +10,14 @@ export default function Slider(props){
             <div className='bar'>
                 <span className='disponivel'>Já está disponível</span>
                 <button className='mais'>
-                    <a href={props.cardLink}>Saiba mais <FaAngleRight/> </a>
+                    <a href={props.cardLink}>Saiba mais  <FaAngleRight/> </a>
                 </button>
+                <div className='classification'>
+                    <div className='square'>
+                        {props.classificationNumber}
+                    </div>
+                    <span className='class-text'>{props.classificationText}</span>
+                </div>
 
             </div>
         </div>
