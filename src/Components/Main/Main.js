@@ -4,6 +4,7 @@ import Slider from '../Slider/Slider';
 import Search from '../Search/Search';
 import Card from '../Cards/Card';
 import Container from '../Container/Container'
+import Footer from '../Footer/Footer'
 
 export default function Main() {
   return (
@@ -17,14 +18,24 @@ export default function Main() {
       />
       <Search/>
 
-      <Container>
+      <Container title = 'Jogos no Steam'>
+        <Card
+        image='https://playreplay.com.br/wp-content/uploads/2019/08/no-mans-sky-beyond-vr-ps4-xbox-pc-1-e1566943409940.jpg'
+        title='No Men Sky'
+        preco='150'
+        />
+        <Card
+        image='https://playreplay.com.br/wp-content/uploads/2019/08/no-mans-sky-beyond-vr-ps4-xbox-pc-1-e1566943409940.jpg'
+        title='No Men Sky'
+        preco='150'
+        />
         <Card
         image='https://playreplay.com.br/wp-content/uploads/2019/08/no-mans-sky-beyond-vr-ps4-xbox-pc-1-e1566943409940.jpg'
         title='No Men Sky'
         preco='150'
         />
       </Container>      
-      
+      <Footer/>
     </>
   );
 }

@@ -1,5 +1,5 @@
 import "./Card.css";
-import { FaRegHeart } from "react-icons/fa";
+import { FaSteam } from "react-icons/fa";
 
 export default function Card(props) {
     return (
@@ -12,7 +12,7 @@ export default function Card(props) {
                 <span className="card-preco">{"R$ " + props.preco}</span>
             </a>
             <a className="wishlist" href={props.linkWish}>
-                <FaRegHeart />
+                Add to Wishlist  <FaSteam />
             </a>
         </div>
     );

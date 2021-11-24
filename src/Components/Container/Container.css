@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem 0 0 0;
+  color: black;
 }
 
 .container-cards {
@@ -11,4 +12,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+.container-div{
+  background-color: #029295;
 }
