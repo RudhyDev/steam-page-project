@@ -22,17 +22,17 @@ export default function Main() {
         <Card
         image='https://playreplay.com.br/wp-content/uploads/2019/08/no-mans-sky-beyond-vr-ps4-xbox-pc-1-e1566943409940.jpg'
         title='No Men Sky'
-        preco='150'
+        preco='150,00'
         />
         <Card
         image='https://playreplay.com.br/wp-content/uploads/2019/08/no-mans-sky-beyond-vr-ps4-xbox-pc-1-e1566943409940.jpg'
         title='No Men Sky'
-        preco='150'
+        preco='150,00'
         />
         <Card
         image='https://playreplay.com.br/wp-content/uploads/2019/08/no-mans-sky-beyond-vr-ps4-xbox-pc-1-e1566943409940.jpg'
         title='No Men Sky'
-        preco='150'
+        preco='150,00'
         />
       </Container>      
       <Footer/>
