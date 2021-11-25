@@ -22,7 +22,7 @@ export default function Slider(props) {
 
     return (
         <div>
-            <img className="image" src={game.image} alt={game.name} />
+            <img className="image" src="{}" alt={game.name} />
             <div className="bar">
                 <span className="disponivel">Já está disponível</span>
                 <button className="mais">
