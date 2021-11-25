@@ -4,8 +4,26 @@ import Search from "../../Components/Search/Search";
 import Card from "../../Components/Cards/Card";
 import Container from "../../Components/Container/Container";
 import Footer from "../../Components/Footer/Footer";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+    const [games, setGames] = useState([]);
+    const [mounted, setMounted] = useState(false);
+
+    const getData = async () => {
+        await axios.get("/game/findMany").then((response) => {
+            if (mounted) {
+                setGames(response.data);
+            }
+        });
+    };
+
+    useEffect(() => {
+        setMounted(true);
+        getData();
+    }, [mounted]);
+
     return (
         <>
             <Navbar />

@@ -1,7 +1,7 @@
 import Home from '../../pages/Home/Home';
 import Wish from '../../pages/Wishlist/WishList';
-import './Main.css';
 import axios from 'axios'
+import './Main.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Game from '../../pages/Game/Game';
 import Login from '../../pages/Login/Login'

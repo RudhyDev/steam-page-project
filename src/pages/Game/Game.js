@@ -21,7 +21,7 @@ export default function Game() {
       }
     })
   }
-
+  
   useEffect(() => {
     setMounted(true)
     getData()
