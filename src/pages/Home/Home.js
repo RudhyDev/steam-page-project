@@ -1,6 +1,9 @@
 import Navbar from '../../Components/Navbar/Navbar';
 import Slider from '../../Components/Slider/Slider';
-import Card from '../../Components/Cards/Card'
+import Card from '../../Components/Cards/Card';
+import Search from '../../Components/Search/Search';
+import Container from '../../Components/Container/Container';
+import Footer from '../../Components/Footer/Footer';
 import axios from "axios";
 import { useEffect, useState } from "react";
 

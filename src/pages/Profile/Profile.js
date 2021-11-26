@@ -30,7 +30,7 @@ export default function Profile(props) {
   return (
     <div className='profile'>
       <div className='profile-img'>
-        <img src='https://yt3.ggpht.com/ytc/AKedOLTNDWSxPjRimdb7dmPRXSDnciDL3J1Z2CqkqCSU=s900-c-k-c0x00ffffff-no-rj' alt='Mario' />
+        <img src='https://1.bp.blogspot.com/-Fz5cMX7WUUI/YV7k8YU4p_I/AAAAAAAASw4/cPeTaYDKJNkkGrxi7EIx8k-9UVdCKjsqACLcBGAsYHQ/s0/BF2042-LAN%25C3%2587AMENTO.jpg' alt='BattleField' />
       </div>
       {
         !notLogged ? (
