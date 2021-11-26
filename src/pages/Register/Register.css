@@ -12,7 +12,7 @@
 }
 
 .register-form {
-  background-color: #F2F2F2;
+  background-color: #d2eafada;
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@
 }
 
 .terms a {
-  color: #97B0E7;
+  color: blue;
 }
 
 .terms input {
@@ -57,12 +57,13 @@
 }
 
 .register-btn input {
-  background-color: #B1B1B1;
-  color: #fff;
+  background-color: green;
+  color: rgb(0, 0, 0);
   border: none;
   border-radius: 1rem;
   padding: 0.6rem 1.5rem;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .register-btn input:hover {

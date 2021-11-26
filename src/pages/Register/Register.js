@@ -48,7 +48,7 @@ export default function Register() {
 
           <div className='terms'>
             <input type='checkbox' placeholder='wedewdwed' required />
-            <label>Eu concordo com os termos do <a href='https://accounts.nintendo.com/term/eula/BR'>Acordo de usuário da conta Nintendo</a> e confirmo que li a <a href='https://accounts.nintendo.com/term/privacy_policy/BR'>Política de privacidade da Nintendo</a>.</label>
+            <label>Eu concordo com os termos do <a href='https://store.steampowered.com/eula/203160_eula?eulaLang=brazilian'>Acordo de usuário da conta Steam</a> e confirmo que li a <a href='https://store.steampowered.com/privacy_agreement/'>Política de privacidade da Steam</a>.</label>
           </div>
           
           <div className='register-btn'>
