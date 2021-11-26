@@ -10,8 +10,8 @@ export default function Navbar(){
             <ul className="menus">
                 <li><a href='/Login'>LOGIN</a></li>
                 <li><a href='/auth/me'>PERFIL</a></li>
-                <li><a>REGISTRE-SE</a></li>
-                <li>LISTA DE DESEJOS</li>
+                <li><a href='/user/register'>REGISTRE-SE</a></li>
+                <li><a href='/game/myWishList'>LISTA DE DESEJOS</a></li>
             </ul>
         </div>
     )
