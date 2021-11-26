@@ -11,7 +11,7 @@ export default function Card(props) {
                 <h2 className="card-title">{props.title}</h2>
                 <span className="card-preco">{"R$ " + props.preco}</span>
             </a>
-            <a className="wishlist" href={props.linkWish}>
+            <a className="wishlist" href='/game/myWishList'>
                 Add to Wishlist  <FaSteam />
             </a>
         </div>

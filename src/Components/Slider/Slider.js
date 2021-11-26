@@ -22,7 +22,7 @@ export default function Slider(props) {
 
     return (
         <div>
-            <img className="image" src="{}" alt={game.name} />
+            <img className="image" src="https://cdn1.epicgames.com/offer/52f57f57120c440fad9bfa0e6c279317/EGS_Battlefield2042_DICE_S1_2560x1440-36f16374c9c29a18a46872795b483d72_2560x1440-36f16374c9c29a18a46872795b483d72" alt={game.name} />
             <div className="bar">
                 <span className="disponivel">Já está disponível</span>
                 <button className="mais">
